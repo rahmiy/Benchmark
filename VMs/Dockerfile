@@ -1,5 +1,5 @@
 # This dockerfile builds a container that pulls down and runs the latest version of Benchmark
-FROM ubuntu:latest
+FROM ubuntu:kinetic
 MAINTAINER "Dave Wichers dave.wichers@owasp.org"
 
 RUN apt-get update
